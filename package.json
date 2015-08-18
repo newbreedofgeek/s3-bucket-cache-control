@@ -1,0 +1,14 @@
+{
+  "name": "s3-bucket-cache-control",
+  "version": "1.0.0",
+  "description": "Takes an S3 bucket full of content and upgrades all its object to all have cache-control headers",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@newbreedofgeek",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1.45"
+  }
+}
